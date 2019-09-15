@@ -16,6 +16,17 @@ php artisan vendor:publish --provider="JadeKun\Sku\SkuServiceProvider"
 ```javascript
 const UploadHost = '/admin/upload_file';
 ```
+php进行存储
+```php
+// key为file
+if($request->hasFile('file')) {
+    $file = $request->file('file');
+    $path = $file->store('images');
+
+    // 返回格式
+    return ['url'=> Storage::url($path)];
+}
+```
 
 ### 数据库字段配置
 - 数据类型json

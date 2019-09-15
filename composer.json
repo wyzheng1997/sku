@@ -1,0 +1,33 @@
+{
+    "name": "jadekun/sku",
+    "description": "",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/jade-kun/sku",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jade",
+            "email": "jade@likunit.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JadeKun\\Sku\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JadeKun\\Sku\\SkuServiceProvider"
+            ]
+        }
+    }
+}

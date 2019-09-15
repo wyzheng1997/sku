@@ -5,7 +5,7 @@ laravel-admin extension 商品SKU
 
 ## 安装
 ```bash
-composer install jadekun/sku
+composer require jadekun/sku
 php artisan vendor:publish --provider="JadeKun\Sku\SkuServiceProvider"
 ```
 

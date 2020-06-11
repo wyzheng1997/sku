@@ -1,6 +1,6 @@
 laravel-admin extension 商品SKU
 ======
-
+# 不维护了！不维护了！，自行Fork
 ![预览](https://github.com/jade-kun/sku/blob/master/1.png?raw=true)
 
 ## 安装
